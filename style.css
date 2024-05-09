@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:  url(hills-2836301.jpg);
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content fieldset{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0,0,0,0.1);
+    border: 2px solid #FDFFC2;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    padding: 0;
+}
+.content fieldset h2{
+    width: 200px;
+    height: 60px;
+    font-size: 46px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+    border: 2px solid #FDFFC2;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    text-align: center;
+    background: #FDFFC2;
+    margin: 0;
+}
+.content fieldset form{
+    width: 90%;
+    height: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content fieldset form input{
+    width: 80%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: 500ms;
+}
+.content fieldset form input::placeholder{
+    color: #fff;
+    opacity: 0.8;
+}
+.content fieldset form .username,
+.content fieldset form .email,
+.content fieldset form .password,
+.content fieldset form .c_password{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content fieldset form .username i,
+.content fieldset form .email i,
+.content fieldset form .password i,
+.content fieldset form .c_password i{
+    color: #FDFFC2;
+    margin-left: -15px;
+}
+.content fieldset form .more{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content fieldset form .more p,
+.content fieldset form .more span p{
+    cursor: pointer;
+    transition: 500ms;
+}
+.content fieldset form .more p:hover{
+    color: #f1f57e;
+}
+.content fieldset form .more span{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.content fieldset form .more span input{
+    width: 12px;
+    height: 12px;
+    margin-bottom: 0;
+}
+.content fieldset form button{
+    width: 80%;
+    height: 40px;
+    background: #FDFFC2;
+    border: 1px solid #FDFFC2;
+    color: #000;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.content fieldset form button:hover{
+    background: transparent;
+    color: #fff;
+    transition: 500ms;
+}
+.content fieldset form p{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content fieldset form p a{
+    color: #f1f57e;
+    transition: 500ms;
+}
+.content fieldset form p a:hover{
+    color: #f1f57e;
+    transition: 500ms;
+}
